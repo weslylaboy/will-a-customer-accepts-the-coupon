@@ -43,6 +43,9 @@ When I look at all the data, the acceptance rate is 56.93% across all coupon typ
 it is much lower at only 41.19%. This tells me that acceptance of bar coupons depends more on personal habits and lifestyle 
 compared to other coupons like "Carry out" or "Restaurant (<$20)", which more people use.
 
+![How Many Accepted Coupon](images/how_many_accepted_coupon.png)
+
+
 ### 2. The Role of Regular Habits
 
 **How Often People Visit Matters:**
@@ -82,6 +85,11 @@ cheap restaurant visits. The marketing should focus on these groups and avoid se
 
 Based on the analysis of the data, the top performing coupons are "Coffee House", "Restaurant(<20)", and "Carry out & Take away". Below are the key findings:
 
+![Acceptance by Coupon](images/coupon_accepted_by_category.png)
+
+![Acceptance by Coupon](images/piechart_accepted_coupons.png)
+
+
 ### Problem Statement
 
 Understanding which factors influence the acceptance of the top 3 coupons to optimize targeting and maximize redemption rates.
@@ -93,22 +101,33 @@ The acceptance patterns show that time matters. Around 2 PM is when people accep
 lunchtime or an afternoon break. Morning time, 7 AM, is also good, people going to work want coffee or breakfast. 
 Evening time after 6 PM is not so strong for acceptance.
 
+![Acceptance by Time](images/rate_top_3_coupon.png)
+
 **2. Social Context is Very Important**
 When people travel with friends, they accept coupons more than when alone or with kids. Having kids in the car lowers 
 the acceptance rate, parents probably want to get home fast without stopping. Partners also show moderate acceptance, 
 but the friends group is the best target.
 
+![Acceptance by Passenger](images/rate_passenger_acceptance.png)
+
 **3. Age Demographics**
 Younger people, aged 21-31,  accept coupons more than older groups. The heatmap shows that people aged 21-26 have the 
 highest acceptance rates across all coupon types. Maybe younger people are more price sensitive or more open to try new things.
+
+![Acceptance by Age](images/age_dist_coupon_acceptance.png)
 
 **4. Weather Effects**
 Sunny weather shows the best acceptance rates. When the weather is rainy or snowy, people don't want to make extra stops. 
 This makes sense because nobody wants to get out of the car in bad weather just for a coupon discount.
 
+![Acceptance by Weater](images/coupon_accepted_by_weather.png)
+
 **5. Destination Matters**
 People with "No Urgent Place" accept coupons the most. When going to work or home, acceptance is lower, they probably 
 already have specific plans. This suggests that coupons work better for relaxed trips than commute trips.
+
+![Acceptance by Destination](images/heatmap_destination_vs_coupon.png)
+
 
 ### Actionable Recommendations
 
